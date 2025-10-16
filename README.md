@@ -20,8 +20,10 @@ Nhìn thấy 1 phần bắt đầu với 1 bàn cờ có sẵn 2 quân hậu ở
 
 Thuật toán ac-3 với đầu vào em chọn là bàn cờ 2 vị trí hậu 0,1 đă đặt sẵn hợp lệ
 Em chọn các tập là các hàng, mỗi hàng sẽ có domain tương ứng, ban đầu thì hàng 0 và 1 sẽ có 1 phần tử là vị trí đã chọn khởi tạo, các hàng còn lại có domain là 8 phần tử tương ứng 8 cột
-Khởi tạo cung: các cung sẽ là 2,1 1,2 2,0 0,2,..., có tất cả 56 cung
+Khởi tạo cung: các cung sẽ là 2,1 1,2 2,0 0,2,..., có tất cả 56 cung trong agenda
 Em xét từng cung và lọc khỏi domain từng hàng những giá trị không thỏa
+Khi một hàng thay đổi, tiến hành thêm ngược lại các cung có hàng đó nằm ở bên phải vào lại agenda
+Thuật toán dừng khi agenda rỗng, tất cả cung đã được xét
 Nếu có cung rỗng thì thuật toán AC-3 thất bại
 Ngược lại thì sẽ dùng backtrack để tạo solution từ các domain đã được lọc
 
