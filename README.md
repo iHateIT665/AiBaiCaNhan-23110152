@@ -1,6 +1,6 @@
 # AiBaiCaNhan-23110152
 bài cá nhân dùng các thuật toán đã học để mô tả cách giải bài toán 8 hậu(Có làm ac-3)
-
+https://github.com/iHateIT665/AiBaiCaNhan-23110152.git
 Cấu trúc dự án như sau:
 -File main ghi logic các nút để gọi thuật toán
 -File ui thiết kế giao diện, các nút, vẽ bàn cờ
